@@ -36,7 +36,7 @@
   sudo: yes
   lineinfile:
     dest: "/etc/fstab"
-    line: "{{ swap_file }}   none    swap    0   0"
+    line: "{{ swap_file }}   none    swap   sw    0   0"
     state: present
   when: swap_size != false
 
