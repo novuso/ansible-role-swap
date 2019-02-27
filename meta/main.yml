@@ -5,7 +5,7 @@ galaxy_info:
   description: Swap for Ubuntu 14.04
   company: Novuso
   license: license (MIT)
-  min_ansible_version: 1.6
+  min_ansible_version: 1.9
   platforms:
   - name: Ubuntu
     versions:
